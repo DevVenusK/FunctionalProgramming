@@ -22,9 +22,29 @@
 		8E5BA4D62E044B7F00D9CF8D /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8E5BA4F82E044BCF00D9CF8D /* Exceptions for "Algorithm" folder in "Algorithm" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				1000.swift,
+				1001.swift,
+				1008.swift,
+				2557.swift,
+				10869.swift,
+				10926.swift,
+				10998.swift,
+				18108.swift,
+			);
+			target = 8E5BA4D52E044B7F00D9CF8D /* Algorithm */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8E5BA4D82E044B7F00D9CF8D /* Algorithm */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8E5BA4F82E044BCF00D9CF8D /* Exceptions for "Algorithm" folder in "Algorithm" target */,
+			);
 			path = Algorithm;
 			sourceTree = "<group>";
 		};
