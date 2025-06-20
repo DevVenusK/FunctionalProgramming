@@ -30,6 +30,7 @@
 				1001.swift,
 				1008.swift,
 				2557.swift,
+				10430.swift,
 				10869.swift,
 				10926.swift,
 				10998.swift,
