@@ -30,10 +30,12 @@
 				1001.swift,
 				1008.swift,
 				2557.swift,
+				2588.swift,
 				10430.swift,
 				10869.swift,
 				10926.swift,
 				10998.swift,
+				11382.swift,
 				18108.swift,
 			);
 			target = 8E5BA4D52E044B7F00D9CF8D /* Algorithm */;
@@ -115,6 +117,7 @@
 				TargetAttributes = {
 					8E5BA4D52E044B7F00D9CF8D = {
 						CreatedOnToolsVersion = 16.1;
+						LastSwiftMigration = 1610;
 					};
 				};
 			};
@@ -269,10 +272,12 @@
 		8E5BA4DE2E044B7F00D9CF8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4D7F4WWXG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -280,6 +285,7 @@
 		8E5BA4DF2E044B7F00D9CF8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4D7F4WWXG;
 				ENABLE_HARDENED_RUNTIME = YES;
